@@ -2,3 +2,29 @@ nav a {
   margin-right: 15px;
   font-size: 20px;
 }
+
+.home-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  margin-top: 30px;
+}
+.tshirt-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.single-tshirt {
+  border: 1px solid lightcoral;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 6px;
+}
+
+.single-tshirt img {
+  height: 250px;
+}
+.single-tshirt p {
+  font-weight: 600;
+  color: brown;
+  font-size: 18px;
+}
