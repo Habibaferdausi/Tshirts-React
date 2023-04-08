@@ -3,7 +3,7 @@ import React from "react";
 const Cart = ({ cart, handleRemoveFromCart }) => {
   let message;
   if (cart.length === 0) {
-    message = <p>Please add some products</p>;
+    message = <h4 className="text">Please add some products</h4>;
   } else {
     message = (
       <div>
