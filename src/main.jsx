@@ -6,6 +6,8 @@ import "./index.css";
 import Home from "./Components/Home";
 import Main from "./Layout/Main";
 import OrderReview from "./Components/OrderReview";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
       {
         path: "review",
         element: <OrderReview></OrderReview>,
+      },
+      {
+        path: "about",
+        element: <About></About>,
+      },
+      {
+        path: "contact",
+        element: <Contact></Contact>,
       },
     ],
   },
