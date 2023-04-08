@@ -28,7 +28,7 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <div className="t-shirts-container">
+      <div className="tshirt-container">
         {tshirts.map((tshirt) => (
           <TShirt
             key={tshirt._id}
