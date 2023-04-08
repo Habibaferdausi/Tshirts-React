@@ -28,3 +28,9 @@ nav a {
   color: brown;
   font-size: 18px;
 }
+
+button {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+}
